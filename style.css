@@ -1,0 +1,280 @@
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html,
+body {
+	font-size: 62.5%;
+}
+body {
+	height: 100vh;
+	margin: 0;
+	background-color: #efdac2;
+	background-image: url('https://cdn.glitch.global/c7fefa19-e5b6-4105-9775-7fac1ea23f02/bg_4.jpg?v=1644186270530');
+	background-position: center top;
+	background-repeat: repeat;
+	font-family: 'Neucha', cursive;
+	font-size: 2rem;
+	font-weight: 700;
+	color: darkolivegreen;
+}
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+}
+*:active,
+*:focus {
+	outline-color: rgb(85, 107, 47, 0.5);
+}
+*::-moz-selection {
+	background-color: rgb(85, 107, 47, 0.5);
+	color: white;
+}
+*::selection {
+	background-color: rgb(85, 107, 47, 0.5);
+	color: white;
+}
+.container {
+	height: 100%;
+	padding: 1rem;
+}
+.bgContainer {
+	margin: 0 auto;
+	min-height: 100%;
+	width: 56rem;
+	max-width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #ffffff;
+	/* background-image: url('https://cdn.glitch.global/c7fefa19-e5b6-4105-9775-7fac1ea23f02/wallpaper_9.jpg?v=1644184434422'); */
+	background-image: none;
+	background-position: center top;
+	background-repeat: repeat;
+	-webkit-box-shadow: 0.2rem 0.2rem 0.5rem #968470, -0.2rem -0.2rem 0.5rem #968470;
+	box-shadow: 0.2rem 0.2rem 0.5rem #968470, -0.2rem -0.2rem 0.5rem #968470;
+}
+.header {
+	margin: 2rem;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.headerText {
+	align-self: flex-end;
+	max-width: 80%;
+	text-align: center;
+	font-size: 5rem;
+	color: #d58957;
+}
+.headerText--small {
+	font-size: 3rem;
+}
+#btnHeader {
+	align-self: flex-start;
+	border: none;
+	cursor: pointer;
+	width: 4rem;
+	height: 4rem;
+	fill: rgb(85, 107, 47, 0.7);
+	background: transparent;
+}
+.input {
+	padding: 0;
+	margin-bottom: 2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 1rem;
+	border: 0.15rem solid #968470;
+	-webkit-box-shadow: 0.2rem 0.2rem 0.5rem #968470, -0.2rem -0.2rem 0.5rem #968470;
+	box-shadow: 0.2rem 0.2rem 0.5rem #968470, -0.2rem -0.2rem 0.5rem #968470;
+	background-color: rgb(255, 255, 255, 0.5);
+}
+.inputField {
+	padding: 0.9rem;
+	-ms-flex-item-align: stretch;
+	-ms-grid-row-align: stretch;
+	align-self: stretch;
+	min-height: 100%;
+	border: none;
+	border-radius: 7rem;
+	background-color: transparent;
+	color: darkolivegreen;
+	font-size: 1.7rem;
+	outline: none;
+}
+
+#btn {
+	padding: 0.5rem;
+	border-radius: 7rem;
+	border: none;
+	cursor: pointer;
+	width: 6rem;
+	height: 6rem;
+	fill: darkolivegreen;
+	background: transparent;
+}
+.list {
+	padding: 0;
+	width: 90%;
+	list-style-type: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+.list li:first-child {
+	margin-bottom: 2rem;
+}
+
+.item {
+	min-height: 4rem;
+	border-bottom: 0.15rem solid #968470;
+	cursor: pointer;
+  word-break: break-word;
+}
+
+.itemDiv {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.itemText {
+	padding-right: 2rem;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	font-size: 2.2rem;
+	line-height: 1.5;
+	letter-spacing: 0.1ch;
+}
+
+.itemText-done {
+	text-decoration: line-through;
+	-webkit-text-decoration-color: #d58957;
+	text-decoration-color: #d58957;
+    color: rgba(58,70, 38, 0.5);
+}
+
+.buttonsDiv {
+	-ms-flex-item-align: center;
+	-ms-grid-row-align: center;
+	align-self: center;
+	margin-left: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.buttonDone {
+	fill: rgba(58, 70, 38, 0.5);
+}
+
+.buttonDel {
+	fill: darkolivegreen;
+}
+
+.buttonDone,
+.buttonDel {
+	width: 4.5rem;
+	height: 4.5rem;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	padding: 0.5rem;
+}
+
+.buttonDone-clicked {
+	fill: darkolivegreen;
+}
+@media (hover:hover) {
+#btn {
+	fill: rgb(85, 107, 47, 0.7);
+}
+#btn:hover {
+	fill: darkolivegreen;
+}
+}
+
+@media all and (max-width:800px) {
+	.header {
+		margin: 1.5rem;
+	}
+	.headerText {
+		margin-top: 1rem;
+		font-size: 4rem;
+	}
+	#btnHeader {
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+	.itemText {
+		padding-right: 1rem;
+		font-size: 1.8rem;
+	}
+}
+
+@media all and (max-width:500px) {
+	.itemText {
+		padding-right: 0.5rem;
+		font-size: 1.8rem;
+	}
+	.buttonDone {
+		margin-right: 0.5rem;
+	}
+	.buttonDone,
+	.buttonDel {
+		width: 3.5rem;
+		height: 3.5rem;
+		padding: 0.2rem;
+	}
+}
+
+@media all and (max-width:330px) {
+	.headerText {
+		font-size: 3rem;
+	}
+	#btnHeader {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+	.itemText {
+		font-size: 1.6rem;
+	}
+	.buttonDone {
+		margin-right: 0.5rem;
+	}
+	.buttonDone,
+	.buttonDel {
+		width: 3rem;
+		height: 3rem;
+	}
+}
