@@ -2,7 +2,7 @@
 <a href="https://pstnv-todo-list.glitch.me/"> https://pstnv-todo-list.glitch.me/ </a>
 
 <div align="center">
-  <img src="https://pstnv.github.io/preview/picPreview_12.png">
+  <img src="https://cdn.glitch.global/ece60b40-3830-4d48-bb12-fa238aabf422/picPreview_12.png?v=1661081039011">
 </div>
 <br>
 
